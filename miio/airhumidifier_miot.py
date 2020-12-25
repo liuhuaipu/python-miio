@@ -10,7 +10,7 @@ from .miot_device import MiotDevice
 
 _LOGGER = logging.getLogger(__name__)
 _MAPPING = {
-    # Source http://miot-spec.org/miot-spec-v2/instance?type=urn:miot-spec-v2:device:humidifier:0000A00E:zhimi-ca4:2
+    # Source http://miot-spec.org/miot-spec-v2/instance?type=urn:miot-spec-v2:device:humidifier:0000A00E:deerma.humidifier.jsq4:2
     # Air Humidifier (siid=2)
     "power": {"siid": 2, "piid": 1},  # bool
     "fault": {"siid": 2, "piid": 2},  # [0, 15] step 1
